@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.header {
+    width: 70%;
+    margin: auto;
+}
+
+.nav {
+    width: 100%;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+
+.nav .logo img {
+    float: right;
+    margin: -90px;
+    width: 25%;
+}
+
+.header .nav ul {
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.header .nav ul li {
+    float: left;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header .nav ul li a button {
+    padding: 13px;
+    margin: -10px;
+    border-radius: 5px;
+    color: #182a35;
+    cursor: pointer;
+    color: black;
+    background-color: #e5e9f4;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: rgb(110, 106, 106);
+    ;
+}
+
+.header .nav ul li a button:hover {
+    background-color: #45a8e6;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* ------------------ */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.container .top-content {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.text {
+    float: right;
+    width: 50%;
+    margin-top: 120px;
+}
+
+.container .top-content .FirstLogo img {
+    width: 50%;
+}
+
+.container .top-content .text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(40, 40, 40);
+}
+
+.container .top-content .text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(150, 150, 150);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container .top-content .text a button {
+    width: 85px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* ------------------------ */
+
+.Card1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.first,
+.two {
+    background-color: rgb(245, 245, 245);
+    width: 46%;
+    height: auto;
+    padding: 20px 20px 40px;
+    float: right;
+}
+
+.two {
+    margin-right: 10px;
+}
+
+.first i,
+.two i {
+    font-size: 50px;
+    padding-top: 2px;
+}
+
+.Card2 {
+    margin-top: 50px;
+}
+
+.img-us,
+.why-us {
+    width: 50%;
+    float: right;
+}
+
+.Card2 .img-us img {
+    width: 100%;
+}
+
+.Card3 {
+    background-color: rgb(245, 245, 245);
+    padding: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Card3 .mini {
+    float: right;
+    width: 23%;
+    padding: 30px 5px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 12px;
+}
+
+.Card3 .mini i {
+    font-size: 30px;
+}
+
+.Card3 .mini h2 :hover {
+    color: 45a8e6;
+}
+
+.last-content1 {
+    text-align: center;
+    width: auto;
+    margin-top: 15px;
+}
+
+.Card4 i {
+    width: 10%;
+    height: 35px;
+    float: left;
+    padding-top: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.Card4 i:hover {
+    color: black;
+    background-color: #FDBD01;
+    padding-right: 30px;
+}
+
+.inf,
+.inf2 {
+    width: 40%;
+    background-color: rgb(245, 245, 245);
+    border-top: 5px solid rgb(66, 182, 218);
+    border-bottom: 5px solid rgb(66, 182, 218);
+    padding: 20px 10px;
+    float: right;
+    margin-left: 25px;
+}
+
+.Card4 .inf iframe {
+    width: 100%;
+}
+
+.Card4 .inf2 input {
+    width: 95%;
+    margin-top: 5px;
+    line-height: 28px;
+}
+
+.Card4 .inf2 textarea {
+    width: 62%;
+    height: 224px;
+    padding: 88px;
+}
+
+.Card4 .inf2 button {
+    width: 25%;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+.lastend {
+    margin-top: 30px;
+}
+
+.footer {
+    width: 70%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 50px 20px 20px;
+    margin: auto;
+}
+
+.footer h2,
+.social i {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    border: 1px solid black;
+}
+
+.copyright {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 120, 120);
+    overflow: auto;
+}
+
+.copyright h2 {
+    width: 50%;
+    text-align: left;
+    font-size: 14px;
+    float: left;
+}
